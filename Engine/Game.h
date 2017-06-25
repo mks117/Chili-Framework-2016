@@ -43,4 +43,17 @@ private:
 	/********************************/
 	/*  User Variables              */
 	/********************************/
+
+	int x = 400;
+	int y = 300;
+	int vx = 0;
+	int vy = 0;
+	int r = 255;
+	int g = 255;
+	int b = 255;
+	bool shapeIsChanged = false;
+	bool inhibitUp = false;
+	bool inhibitDown = false;
+	bool inhibitLeft = false;
+	bool inhibitRight = false;
 };
